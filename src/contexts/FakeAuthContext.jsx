@@ -32,7 +32,7 @@ function AuthProvider({children}){
     const FAKE_USER = {
        name: "Ayush",
        email: "Ayush@example.com",
-       password: "qwerty",
+       password: "qwerty2",
        avatar: "https://i.pravatar.cc/100?u=zz",
     };
     

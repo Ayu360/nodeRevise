@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import { useCities } from "../contexts/CitiesContext"
+import { useAuth } from "../contexts/FakeAuthContext"
 import { useEffect } from "react";
 
 function ProtectedRoutes({children}) {
-    const {isAuthenticated} = useCities();
+    const {isAuthenticated} = useAuth();
     const navigate = useNavigate();
 
     useEffect(function(){

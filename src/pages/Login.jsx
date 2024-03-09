@@ -11,7 +11,7 @@ export default function Login() {
   const navigate = useNavigate();
   
   const [email, setEmail] = useState("Ayush@example.com");
-  const [password, setPassword] = useState("qwerty");
+  const [password, setPassword] = useState("qwerty2");
   
   const {isAuthenticated,login}=  useAuth(); 
 
