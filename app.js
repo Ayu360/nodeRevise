@@ -10,3 +10,12 @@ console.log(fileName);
 //knowing base file:
 const baseName = path.basename(fileName);
 console.log(baseName);
+
+//creating absolute path:
+const absolutePath = path.resolve(
+  __dirname,
+  "content",
+  "subfolder",
+  "test.txt"
+);
+console.log(absolutePath);
